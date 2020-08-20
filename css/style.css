@@ -5,7 +5,7 @@
 
 body {
   font-family: PT Root;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.5;
 
   background-color: #000000;
@@ -32,11 +32,21 @@ section div.split {
 
 section div.split:first-child {
   background-color: #111111;
+
 }
 
 section div.slides {
-  width: 400px;
-  background-color: red;
+  position: relative;
+  width: 500px;
+  height: 750px;
+}
+
+section div.slides img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 750px;
 }
 
 section div.info {
