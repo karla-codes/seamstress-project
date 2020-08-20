@@ -1,0 +1,52 @@
+@font-face {
+  font-family: PT Root;
+  src: url(../assets/ptroot.woff2);
+}
+
+body {
+  font-family: PT Root;
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 24px;
+  left: 24px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+
+section div.split {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section div.split:first-child {
+  background-color: #111111;
+}
+
+section div.slides {
+  width: 400px;
+  background-color: red;
+}
+
+section div.info {
+  max-width: 420px;
+}
+
+section h2 {
+  font-size: 32px;
+}
+
+section p {
+  margin: 32px 0 0 0;
+}
