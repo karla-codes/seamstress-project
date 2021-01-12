@@ -14,9 +14,29 @@ body {
 
 header {
   position: fixed;
-  top: 24px;
-  left: 24px;
-  z-index: 1;
+  font-size: 16px;
+  font-variation-settings: "wght" 800;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10000001;
+}
+
+header h1,
+header h2 {
+  display: flex;
+}
+
+h1 span,
+h2 span {
+  width: 150px;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
+h2 span {
+  width: 250px;
 }
 
 section {
@@ -33,7 +53,6 @@ section div.split {
 
 section div.split:first-child {
   background-color: #111111;
-
 }
 
 section div.slides {
